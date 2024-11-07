@@ -22,6 +22,12 @@
     height: auto;
     margin-right: auto;
     margin-right: auto;
+    position: relative;
+}
+
+header,
+footer{
+    color:#ffff;
 }
 
 /*----------------------
@@ -57,6 +63,12 @@ header .headcont{
 .headcont .logo img{
     max-width: 20%;
 }
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
 /*----------------------
          MAIN          
 -----------------------*/
@@ -71,6 +83,29 @@ main #riga2 {
     max-width:  100%;
     max-height: 640px;
 }
+
+.tag1{
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 100px;
+}
+
+.tag2{
+    background-color: #008000;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.tag1,
+.tag2{
+    color: #ffff;
+    padding: 3px;
+}
+
+#riga2 .colonna:nth-last-child(1) .tag2{
+    left: 0;
+}
 /*----------------------
          FOOTER          
 -----------------------*/
@@ -82,4 +117,5 @@ footer{
 footer .footcont{
     display: flex;
     justify-content: space-between;
+    padding: 30px 0px;
 }
