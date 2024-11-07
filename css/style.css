@@ -37,7 +37,7 @@ header{
     background-color: #ff6900;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -91,6 +91,7 @@ main #riga2 {
     background-color: #ff0000;
     position: absolute;
     bottom: 100px;
+    z-index: 2;
 }
 
 .tag2{
@@ -98,6 +99,7 @@ main #riga2 {
     position: absolute;
     bottom: 100px;
     left: 50px;
+    z-index: 2;
 }
 
 .tag1,
@@ -109,6 +111,31 @@ main #riga2 {
 #riga2 .colonna:nth-last-child(1) .tag2{
     left: 0;
 }
+
+.hovef{
+    position: relative;
+
+}
+
+.imgtop{
+    position: absolute;
+    z-index: 1;
+}
+
+.hovef .imbbot{
+    position: absolute;
+    z-index: 0;
+    display: none;
+}
+
+.hovef:hover .imgtop{
+    display: none;
+}
+
+.hovef:hover .imgbot{
+    display: block;
+}
+
 /*----------------------
          FOOTER          
 -----------------------*/
