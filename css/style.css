@@ -30,6 +30,34 @@ footer{
     color:#ffff;
 }
 
+body {
+    font-family: "Roboto", serif;
+  }
+
+.price{
+    color: #ff0000;
+    font-size: medium;
+}
+
+.marca{
+    font-size: medium;
+}
+
+.modello{
+    font-size: large;
+}
+
+.exprice{
+    color: #000000;
+    font-size: medium;
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+
+.container p{
+    padding-top: 5px;
+}
+
 /*----------------------
          HEADER          
 -----------------------*/
@@ -37,7 +65,7 @@ header{
     background-color: #ff6900;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 3;
 
 }
 
