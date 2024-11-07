@@ -11,11 +11,19 @@
         SET GENERALI        
 -----------------------*/
 .container{
-    display: flex;
+    
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.piccont{
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-right: auto;
+}
+
 /*----------------------
          HEADER          
 -----------------------*/
@@ -24,25 +32,45 @@ header{
 
 }
 
-.headcont{
+header .headcont{
+    display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.headcont a{
+    text-align: left;
+    flex-grow: 1;
+}
+
+.headcont i{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.headcont .logo{
     text-align: center;
-    padding: 20px;
+    width: 80%;
 }
 
-.headcont .a,
-.headcont .i{
-    width: 10%;
-}
-
-.logo img{
+.headcont .logo img{
     max-width: 20%;
 }
 /*----------------------
          MAIN          
 -----------------------*/
+main #riga1 ,
+main #riga2 {
+    display: flex;
+    padding: 60px 0px;
+    gap:20px;
+}
 
+.container .img-fluid{
+    max-width:  100%;
+    max-height: 640px;
+}
 /*----------------------
          FOOTER          
 -----------------------*/
