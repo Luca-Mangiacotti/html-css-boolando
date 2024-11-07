@@ -74,3 +74,12 @@ main #riga2 {
 /*----------------------
          FOOTER          
 -----------------------*/
+
+footer{
+    background-color: #1a1a1a;
+}
+
+footer .footcont{
+    display: flex;
+    justify-content: space-between;
+}
