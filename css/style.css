@@ -1,0 +1,48 @@
+/*----------------------
+         RESET          
+-----------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------
+        SET GENERALI        
+-----------------------*/
+.container{
+    display: flex;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----------------------
+         HEADER          
+-----------------------*/
+header{
+    background-color: #ff6900;
+
+}
+
+.headcont{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.headcont .a,
+.headcont .i{
+    width: 10%;
+}
+
+.logo img{
+    max-width: 20%;
+}
+/*----------------------
+         MAIN          
+-----------------------*/
+
+/*----------------------
+         FOOTER          
+-----------------------*/
